@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+}
+
+.header-left img{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffc5b7;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header-middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.header-option:hover .material-icons{
+    color: #2e81f4;
+}
+
+.header-option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header-option.active .material-icons{
+    color: #2e81f4;
+}
+
+.header-option.active {
+    border-bottom: 4px solid #2e81f4;
+}
+
+.header-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h4{
+    margin-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right .material-icons{
+    color: #ae7b77;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+/* ----------------------------------------------- */
+
+.sidebar-row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-row:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebar-row h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebar-row .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.main-body {
+    display: flex;
+}
+
+body{
+    background-color: #ffe3df;
+}
+
+.feed{
+    flex: 1;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
+/* status */
+
+.status{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: #fef9f6;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.status-top{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.status-top form {
+    flex: 1;
+    display: flex;
+}
+
+.status-top form input {
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+
+.status-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.status-option {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.status-option h3 {
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.status-option:hover {
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+/* post */
+
+.post {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: #fef9f6;
+    box-shadow: 0 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.post-img img {
+    width: 100%;
+}
+
+.post-top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post-avatar {
+    margin-right: 10px;
+}
+
+.post-top-info h3 {
+    font-size: medium;
+}
+
+.post-top-info p {
+    font-size: small;
+    color: gray;
+}
+
+.post-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+}
+
+.post-options {
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.post-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.post-option p {
+    margin-left: 10px;
+}
+
+.post-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}

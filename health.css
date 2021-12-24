@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+}
+
+.header-left img{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffc5b7;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header-middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.header-option:hover .material-icons{
+    color: #2e81f4;
+}
+
+.header-option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header-option.active .material-icons{
+    color: #2e81f4;
+}
+
+.header-option.active {
+    border-bottom: 4px solid #2e81f4;
+}
+
+.header-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h4{
+    margin-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right .material-icons{
+    color: #ae7b77;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    /* display: flex; */
+    flex-direction: center;
+    align-items: center;
+    height: max-content;
+    background-color: #fef9f6;
+
+}
+
+.event-container{
+    background-color: #ffe3df;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: max-content;
+    width: 140vh;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+.button{
+    font-size: 18px;
+    background: #fef9f6;
+    color: black;
+    width: 160px;
+    padding: 8px 12px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.button :hover{
+    opacity: 50%;
+    color: black;
+}
+
+button :hover{
+    opacity: 50%;
+    color: black;
+}
+
+.image-container{
+    margin-top: 40px;
+    width: 100%;
+    height: max-content;
+}
+
+.box{
+    display:table-column;
+    background-color: white;
+    /* background-color: white; */
+    border-radius: 10px;
+    height: 435px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.box-img{
+    border-radius: 10px;
+    height: 60%;
+    display: block;
+}
+
+.box-img img{
+    height: 100%;
+    width: 100%;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    object-fit: cover;
+}
+
+.time{
+
+    font-size: 14px;
+    color: black;
+    margin-top: 15px;
+    padding-left: 16px;
+}
+
+.title{
+    color: black;
+    margin-top: 1px;
+    padding-left: 16px;
+}
+
+.status{
+    color: gray;
+    font-size: 14px;
+    /* margin-top: 1px; */
+    padding-left: 16px;
+
+}
+
+.keme{
+    color: gray;
+    font-size: 12px;
+    margin-top: 1px;
+    padding-left: 16px;
+
+}
+
+.interested{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* padding-left: 10px; */
+}
+
+button{
+    font-size: 20px;
+    background: #ffb2ba;
+    color: white;
+    width: 100%;
+    padding: 8px 12px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+}
+
+.events-option{
+    display: flex;
+}

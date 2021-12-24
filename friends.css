@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+
+.header-left img{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffc5b7;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header-middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.header-option:hover .material-icons{
+    color: #2e81f4;
+}
+
+.header-option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h4{
+    margin-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right .material-icons{
+    color: #ae7b77;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------------- */
+.sidebar-row{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar-row:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.sidebar-row h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebar-row .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.main-body {
+    display: flex;
+}
+
+body{
+    background-color: #ffe3df;
+}
+
+.feed{
+    flex: 1;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
+/* --------------------------------- */
+
+.friends-img img {
+    display: block;
+    width:300px;
+    height:300px;
+    object-fit:cover;
+}
+
+.friends {
+    display: flex;
+    padding: 20px 20px;
+    margin-left: 10px;
+}
+
+.friend-list {
+    padding: 10px;
+}
+
+.friends-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.friends-bottom {
+    text-align: center;
+}
+
+.sidebar-row .avatar {
+    width: 50px;
+}

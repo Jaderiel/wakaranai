@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+}
+
+.header-left img{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffc5b7;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header-middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.header-option:hover .material-icons{
+    color: #2e81f4;
+}
+
+.header-option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header-option.active .material-icons{
+    color: #2e81f4;
+}
+
+.header-option.active {
+    border-bottom: 4px solid #2e81f4;
+}
+
+.header-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h4{
+    margin-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right .material-icons{
+    color: #ae7b77;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+@font-face {
+	font-family: FrizQuadrata;
+	src: url("/FrizQuadrataBold.otf");
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+	font-family: FrizQuadrata;
+
+}
+
+.body{
+	height:750px;
+	background-color: #ffe3df;
+	
+}
+
+
+
+/* CONTENT */
+.headercont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #481e10;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.wallpapercont, .wallpaper{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wallpaper img {
+    width: 820px;
+    height: 312px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.profilepic {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-top: 150px;
+}
+
+.profilepic img {
+    position: relative;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+    
+}
+
+
+
+.editprofilepic{
+    display: flex;
+    position: relative;
+    justify-content: end;
+
+}
+.editbtn {
+    border-radius: 10px;
+    color: #481e10;
+    background-color: #ffc5b7;
+    padding:8px;
+    border: none;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 9px;
+	display: inline-block;
+    position: relative;
+}
+
+.editbtn:hover {color:#ffe3df; cursor: pointer;}
+
+.username, .bio {
+    display: flex;
+    justify-content: center;
+    color:#ffe3df;
+    
+}
+
+.bio {
+    padding: 10px;
+}
+/* NAVI */
+
+/* LEFT NAVI */
+.leftnavi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top: 1px solid #ffe3df;
+}
+
+.navi {
+    border-radius: 10px;
+    color: #481e10;
+    background-color: #ffc5b7;
+    padding:10px;
+    border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+    
+}
+
+.navi:hover{color: #ae7b77;background-color: white; cursor: pointer;}
+
+
+ /* ==============POSTS================== */
+
+ #postings {
+     background-color: #ae7b77;
+     display: flex;
+     flex-direction: column;
+     margin-left: 50px;
+     margin-right: 50px;
+     
+     align-items: center;
+ }
+
+#statusbox {
+    height: 180px;
+    width: 500px;
+    background-color: #ffe3df;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+#statusbox1 {
+    flex:inherit;
+    background-color: #ffe3df;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.profilepiccom {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    margin: 10px;
+}
+
+.profilepiccom img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.profilep {
+    display: flex;
+    
+}
+
+.text {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    margin: 10px;
+}
+
+#statustext{
+    resize: none;
+    box-sizing: border-box ;
+    height:100px;
+    width: 100%;
+	border-radius:5px;
+	background:white;
+	padding:12px 20px;
+	font-size:11px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.poststat {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.statuscontent {
+    margin:10px
+}
+
+
+/* POST */
+
+.meme {
+    display: flex;
+    justify-content: center;
+    
+}
+.meme img{
+    width: 820px;
+    height: 312px;
+    object-fit: scale-down;
+    
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #481e10;
+    border-bottom: 1px solid #481e10;
+    margin: 10px;
+    background-color: #ae7b77;
+}
+
+.comment {
+    display: flex;
+    justify-content: center;
+    background-color: #ffc5b7;
+    height: 100%;
+    width: 100%;
+}
+
+.commenter {
+    display: flex;
+    position: relative;
+    justify-content: start;
+    margin: 30px;
+}
+
+
+.profilepic2 img {
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+.commentbox {
+    display: flex;
+    justify-content: start;
+    background-color: white;
+    width: 500px;
+    height: 100%;
+    margin-top: 30px;
+}
+
+
+.photos {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 14vw);
+    grid-gap: 15px;
+    
+}
+
+.phototitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+
+.photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}

@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+}
+
+.header-left img{
+    height: 40px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #ffc5b7;
+    z-index: 100;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+}
+
+.header-input input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+.header-middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: #ae7b77;
+}
+
+.header-option:hover .material-icons{
+    color: #2e81f4;
+}
+
+.header-option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header-option.active .material-icons{
+    color: #2e81f4;
+}
+
+.header-option.active {
+    border-bottom: 4px solid #2e81f4;
+}
+
+.header-option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h4{
+    margin-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right .material-icons{
+    color: #ae7b77;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    font-family: 'Quicksand';
+    background-color: #ffffff;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #a9e4e7;
+    position: fixed;
+}
+
+.navbar-container {
+    align-items: center;
+    display:flex;
+    padding: 0 20px;
+    height: 100%;
+    flex-flow: row wrap;
+    box-shadow: 1px 1px 2px #292a2e;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+}
+
+.social-items img {
+    height: 32px;
+    padding: 2px 5px;
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    flex: 3.5;
+    font-size: 18px;
+    align-items: center;
+    justify-content: start;
+}
+
+.logo-container h1 {
+    padding: 2px 0px;
+    color: #292a2e;
+}
+
+.logo-container a {
+    text-decoration: none;
+}
+
+.social-container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 2px 0px;
+}
+
+.menu-list.active {
+    font-weight: bold;
+}
+
+.menu-list a {
+    text-decoration: none;
+}
+
+.menu-items {
+    padding-left: 30px;
+    color: #292a2e;
+}
+
+/* >>>>>>> Sidebar is here <<<<<<< */
+
+.main-content {
+    display: flex;
+}
+
+.side-content {
+    width: 25%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    margin: 5px 0;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 2px black;
+    position: fixed;
+}
+
+.searchbox1 input {
+    margin: 10px 0;
+    padding: 10px 0;
+    width: max-content;
+    border-style: none;
+    border-radius: 50px;
+    background-color: #ffe3df;
+    padding-left: 35px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.searchbox1 input::placeholder {
+    padding-left: 5px;
+}
+
+.searchbox1 input:hover {
+    background-color: #ae7b77;
+}
+
+.side-content > img {
+    width: 20px;
+    position: relative;
+    right: 80px;
+    bottom: 33px;
+}
+
+.side-content h1 {
+    align-self: flex-start;
+    padding: 0 2px;
+    margin: 0 5px;
+}
+
+.side-content > h3 {
+    font-size: 24px;
+    padding: 5px;
+}
+
+button.place {
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    border-radius: 40px;
+    color: #481e10;
+    padding: 5px;
+}
+
+button.place:hover {
+    background-color: #ae7b77;
+}
+
+.min-max-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.min-max {
+    padding: 10px;
+    margin: 5px 0;
+    width: 30%;
+    border-style: none;
+    border-radius: 20px;
+    background-color: #ffe3df;
+    padding-left: 15px;
+}
+
+.min-max:hover {
+    background-color: #ae7b77;
+}
+
+.subscribe-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px auto;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, #ffb2ba, #ffc5b7, #ffe3df);
+    height: 25vh;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.subscribe-part button {
+    padding: 10px;
+    border-radius: 50px;
+    width: 70%;
+    font-size: 18px;
+    border-style: none;
+}
+
+.subscribe-part button:hover {
+    background-color: #ae7b77;
+    cursor: pointer;
+}
+
+.settings img {
+    background-color: #ffc5b7;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    height: 40px;
+}
+
+.settings img:hover{
+    background-color: #ae7b77;
+}
+
+.side-content hr {
+    width: 100%;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+/* >>>>>>> Contents on the Right Part <<<<<<< */
+
+.right-content {
+    width: 75%;
+    height: 100%;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    margin-left: 361px;
+}
+
+.heading {
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.available-jobs {
+    width: 80%;
+    height: 60vh;
+    background-image: linear-gradient(to right, #ffb2ba, #ffc5b7, #ffe3df);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px 10px;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.jobs {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.available-jobs h6 {
+    font-size: 20px;
+}
+
+.apply button {
+    padding: 10px;
+    width: 30vh;
+    border-radius: 10px 10px;
+    border-style: none;
+    font-size: 18px;
+}
+
+.apply button:hover {
+    background-color: #ae7b77;
+    cursor: pointer;
+}
+
+.create {
+    display: flex;
+    background-color: #ffc5b7;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 35px;
+    bottom: 20px;
+}
+
+
+.create:hover {
+    background-color: #ae7b77;
+}
+
