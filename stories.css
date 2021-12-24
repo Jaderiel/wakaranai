@@ -235,7 +235,7 @@ body {
 }
 
 .your-story img {
-    width: max-content;
+    /* width: max-content; */
     height: 50vh;
     border-radius: 20px;
     align-self: center;
