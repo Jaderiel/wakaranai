@@ -182,3 +182,34 @@ body{
 .sidebar-row .avatar {
     width: 50px;
 }
+
+@media (max-width: 760px) {
+    .sidebar {
+        display: none;
+    }
+
+    .header-input input {
+        display: none;
+    }
+
+    .header-middle {
+        display: none;
+    }
+
+    .header-info {
+        display: none;
+    }
+
+    .feed {
+        margin-top: 20p;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+    .feed {
+        width: 50%;
+        padding: 10px 50px;
+    }
+}
