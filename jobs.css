@@ -438,3 +438,294 @@ button.place:hover {
         padding: 10px 50px;
     }
 }
+
+@media screen and (max-width: 1366px){
+    .side-content > img {
+        width: 20px;
+        position: relative;
+        right: 80px;
+        bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 1089px){
+    .side-content > img {
+        width: 20px;
+        position: relative;
+        right: 80px;
+        bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .right-content {
+        width: 75%;
+        height: 100%;
+        padding: 10px 20px;
+        margin: 10px 20px;
+        margin-left: 250px;
+        margin-top: 70px;
+    }    
+}
+
+@media screen and (max-width: 778px){
+    .right-content {
+        width: 75%;
+        height: 100%;
+        padding: 10px 20px;
+        margin: 10px 20px;
+        margin-left: 200px;
+        margin-top: 70px;
+    }
+    
+    .create {
+        display: flex;
+        background-color: #ffc5b7;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    .settings img {
+        background-color: #ffc5b7;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        height: 40px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .searchbox1 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .searchbox1 input {
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 90%;
+        border-style: none;
+        border-radius: 50px;
+        background-color: #ffe3df;
+        padding-left: 35px;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+    
+    .side-content > img {
+        width: 20px;
+        position: relative;
+        right: 65px;
+        bottom: 45px;
+    }
+
+    .side-content h1 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .subscribe-part {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .searchbox1 input::placeholder {
+        padding-left: 0;
+    }
+
+    hr.line {
+        display: none;
+    }
+    
+    .subscribe-part button {
+        padding: 5px;
+        margin: 2px 0;
+        border-radius: 50px;
+        width: 70%;
+        font-size: 18px;
+        border-style: none;
+    }
+
+    .side-content h1 {
+        width: 100%;
+        font-size: 24px;
+        text-align: center;
+        display: none;
+    }
+
+    .min-max-parent {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .min-max {
+        padding: 10px;
+        margin: 5px 0;
+        width: 30%;
+        border-style: none;
+        border-radius: 20px;
+        background-color: #ffe3df;
+        padding-left: 10px;
+    }
+
+    .right-content {
+        width: 75%;
+        height: 100%;
+        padding: 10px 20px;
+        margin: 10px 20px;
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+    
+    .searchbox1 input {
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 90%;
+        border-style: none;
+        border-radius: 50px;
+        background-color: #ffe3df;
+        padding-left: 30px;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+    }
+    
+    .side-content > img {
+        width: 20px;
+        position: relative;
+        right: 58px;
+        bottom: 45px;
+    }
+
+    .create {
+        display: flex;
+        background-color: #ffc5b7;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 15px;
+        bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .side-content {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 0;
+        margin: 5px 0;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 2px 2px 2px black;
+        margin-top: 60px;
+        position: fixed;
+    }
+
+    .subscribe-part h2 {
+        display: none;
+    }
+
+    hr.line {
+        display: none;
+    }
+
+    .right-content {
+        width: 75%;
+        height: 100%;
+        padding: 0 20px;
+        margin: 0 20px;
+        margin-left: 100px;
+    }
+
+    .create {
+        display: flex;
+        background-color: #ffc5b7;
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        right: 11px;
+        bottom: 20px;
+    }
+
+    .searchbox1 input {
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 90%;
+        border-style: none;
+        border-radius: 50px;
+        background-color: #ffe3df;
+        padding-left: 24px;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    .settings img {
+        background-color: #ffc5b7;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        height: 40px;
+        position: relative;
+        left: 380px;
+        bottom: 130px;
+    }
+
+    .side-content > img {
+        width: 15px;
+        position: relative;
+        right: 40px;
+        bottom: 47px;
+    }
+
+    .searchbox1 input::placeholder {
+        color: transparent;
+    }
+
+    .min-max-parent {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .min-max {
+        padding: 10px;
+        margin: 5px 0;
+        width: 50%;
+        border-style: none;
+        border-radius: 20px;
+        background-color: #ffe3df;
+        padding-left: 10px;
+    }
+
+    .side-content h1 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .subscribe-part button {
+        font-size: 12px;
+    }
+}
