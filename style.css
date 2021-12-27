@@ -34,8 +34,6 @@
 	height:100px;
 	color: #ffe3df;
 	align-items: center;
-	margin-left: 50px;
-	margin-right: 10px;
 	font-size: 20px;
 	
 	
@@ -172,33 +170,32 @@
 
 /* -------------------------------------------END OF INDEX */
 
-@media (max-width: 760px) {
-    .sidebar {
-        display: none;
-    }
+/* responsive */
 
-    .header-input input {
-        display: none;
-    }
-
-    .header-middle {
-        display: none;
-    }
-
-    .header-info {
-        display: none;
-    }
-
-    .feed {
-        margin-top: 20p;
-        width: 100%;
-        padding: 0;
-    }
+@media (max-width: 603px)  {
+    .container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 10px;
+	}
 }
 
-@media (min-width: 769px) and (max-width: 1440px) {
-    .feed {
-        width: 50%;
-        padding: 10px 50px;
-    }
+@media (max-width: 591px)  {
+    .headercont , #capsub{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		
+	}
+	#createacct {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+	}
+	.footerbase {
+		font-size: 10px;
+	}
 }
